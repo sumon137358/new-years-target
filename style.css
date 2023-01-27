@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* header section  */
+header {
+  background-color: #bebec0;
+  height: 809px;
+}
+.half-width {
+  max-width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 809px;
+}
+.left img {
+  width: 200%;
+}
+.right h1 {
+  text-align: right;
+}
+.right p {
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: right;
+
+  /* Dark 02 */
+
+  color: #444343;
+}
+.right button {
+  width: 160px;
+  height: 50px;
+  background: #f15b22;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 300px;
+  display: inline-block;
+  cursor: pointer;
+}
+/* main section  */
+main {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+/* about section  */
+.about-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px 0;
+  width: 1072px;
+  height: 723.3px;
+}
+.about-left {
+  margin-right: 87px;
+}
+.about-left img {
+  width: 569px;
+  height: 723.3px;
+}
+.about-right h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.about-right p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.about-right ul {
+  padding-left: 25px;
+}
+.about-right ul li {
+  list-style-image: url("emages/tick2.png");
+  list-style-type: disc;
+}
+/* my plan section  */
+.my-plan-section {
+  margin: 125px 0;
+}
+.my-plan {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.my-plan-section .plan-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.plan-details h3 {
+  margin: 16px;
+}
+/* inspire section  */
+.inspired-section {
+  margin-bottom: 130px;
+  /* background-image: url("emages/watch.png"); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("emages/watch.png");
+  border-radius: 8px;
+}
+.inspire-description {
+  margin-left: 50px;
+}
+.inspire-description h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.inspire-description button {
+  width: 160px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #f15b22;
+}
+/* footer section  */
+footer {
+  background: #151414;
+
+  max-width: 80%;
+  height: 570px;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 130px 220px;
+}
+.information {
+  margin-right: 200px;
+}
+.information h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  /* identical to box height */
+
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.information .information-des {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  width: 260px;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+.information .email,
+.phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.information .twitter {
+  padding: 0 17px;
+}
+
+.contact p {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.contact .email {
+  height: 64px;
+  color: white;
+  font-size: 16px;
+  border: 1px solid white;
+  background-color: #151414;
+  width: 340px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+.contact .subs {
+  width: 170.11px;
+  height: 64px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #f15b22;
+
+  border-radius: 8px;
+}
